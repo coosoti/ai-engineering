@@ -8,7 +8,7 @@ Common symptoms include:
 Errno 98: Address already in use (The port is ghost-running from a previous crash).
 Connection refused in the browser.
 The API works via curl inside the terminal, but not in Chrome/Safari.
-The Solution: A Step-by-Step Guide
+### The Solution: A Step-by-Step Guide
 Step 1: Clear the Ghost Processes
 Before creating a tunnel, you must ensure the port on your remote server is actually free. If you've had a failed run previously, the port might be "stuck."
 Identify and kill the process occupying port 8000:
